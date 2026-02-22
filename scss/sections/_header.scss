@@ -1,11 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 header {
-    background-color: $main-bg-color;
-    color: $main-text-color;
+    background-color: #010632;
+    color: white;
   height: 65px;
   margin: 0;
   padding: 0;
@@ -23,10 +18,10 @@ header {
      font-family: "Jost", sans-serif;
 }
 .blue {
-    color: $text-1-color;
+    color: #0075FF;
 }
 .yellow {
-    color: $text-2-color;
+    color: #FFC700;
 }
 .ua {
     font-size: 48px;

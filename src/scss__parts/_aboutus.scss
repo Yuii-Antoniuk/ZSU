@@ -1,0 +1,46 @@
+.aboutUs {
+    min-height: 461px;
+    color: $main-text-color;
+    background-color: $main-bg-color;
+}
+
+.aboutUs__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.aboutUs__textbox {
+    width: 414px;
+    line-height: 30px;
+}
+
+.aboutUs__textbox__h2 {
+    margin-bottom: 20px;
+}
+
+.aboutUs__imgbox {
+    width: 655px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    order: -1;
+}
+
+.aboutUs__img-first {
+    width: 365px;
+    height: 251px;
+    background-image: url('../../aboutus-first-img@1.jpg');
+    margin: 0;
+}
+
+.aboutUs__img-second {
+    width: 265px;
+    height: 203px;
+    background-image: url('../../aboutus-second-img@1.jpg');
+    align-self: flex-end;
+    bottom: -30%;
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
