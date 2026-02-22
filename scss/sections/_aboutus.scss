@@ -1,7 +1,7 @@
 .aboutUs {
     min-height: 461px;
     color: $main-text-color;
-    background-color: $main-bg-color;
+    background-color: $root-bg-golor;
 }
 
 .aboutUs__container {
@@ -30,17 +30,33 @@
 .aboutUs__img-first {
     width: 365px;
     height: 251px;
-    background-image: url('../../aboutus-first-img@1.jpg');
+    background-image: url('../../imgs/desktop/aboutus-first-img@1.jpg');
     margin: 0;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 200ms;
+
+    &:hover {
+        box-shadow: 1px 0px 25px 5px rgba(161, 161, 161, 0.85);
+    }
 }
 
 .aboutUs__img-second {
     width: 265px;
     height: 203px;
-    background-image: url('../../aboutus-second-img@1.jpg');
+    background-image: url('../../imgs/desktop/aboutus-second-img@1.jpg');
     align-self: flex-end;
     bottom: -30%;
     position: absolute;
     right: 0;
     margin: 0;
+    transition-property: box-shadow;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 200ms;
+
+    &:hover {
+        box-shadow: 1px 0px 25px 5px rgba(161, 161, 161, 0.85);
+    }
 }
