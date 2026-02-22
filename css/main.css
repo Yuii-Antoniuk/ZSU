@@ -143,6 +143,45 @@ header {
   margin: 0;
 }
 
+footer {
+  background-color: #010632;
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.footer__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #FFFFFF;
+  height: 200px;
+}
+
+.title_blue {
+  color: #0075FF;
+}
+
+.title_yellow {
+  color: #FFC700;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
 * {
   margin: 0;
   padding: 0;

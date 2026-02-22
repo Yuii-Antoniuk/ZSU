@@ -1,0 +1,38 @@
+footer {
+    background-color: $main-bg-color;
+    color: $main-text-color;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.footer__title {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: $main-text-color;
+    height: 200px;
+}
+
+.title_blue {
+    color: $text-1-color;
+}
+
+.title_yellow {
+    color: $text-2-color;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: $main-text-color;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
