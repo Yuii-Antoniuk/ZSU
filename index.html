@@ -113,11 +113,71 @@
           <img src="" alt="картинка України" />
         </div>
       </section>
-      <!-- future-ukraine-->
+   <section class = "donates">
+        
+<button class="open-modal-btn" data-modal-open data-modal-img="images/weapon.jpg">
+  Підтримати (зброя)
+</button>
 
-      <!-- donades-->
+<button class="open-modal-btn" data-modal-open data-modal-img="images/drone.jpg">
+  Підтримати (дрон)
+</button>
 
-      <!-- donades-->
+<button class="open-modal-btn" data-modal-open data-modal-img="images/gas.jpg">
+  Підтримати (балони)
+</button>
+
+
+
+<div class="backdrop is-hidden" data-modal-form>
+  <div class="modal">
+    <button class="modal__close" type="button" aria-label="Закрити" data-modal-close>
+      &times;
+    </button>
+
+    <div class="modal__grid">
+   
+      <div class="modal__content">
+        <form class="donate-form" id="donateForm">
+          <label class="field">
+            <span class="field__label">Email</span>
+            <input class="field__input" type="email" name="email" placeholder="" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">Money</span>
+            <input class="field__input" type="number" name="money" min="1" placeholder="" required />
+          </label>
+
+          <label class="field">
+            <span class="field__label">Card Number</span>
+            <input class="field__input" type="text" name="card" inputmode="numeric" maxlength="19" placeholder="" required />
+          </label>
+
+          <button class="btn" type="submit">Підтримати</button>
+        </form>
+      </div>
+
+     
+      <div class="modal__media">
+        <img class="modal__img" data-modal-img alt="Фото" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src = "modal-project.js">
+<div class="backdrop is-hidden" data-modal-thanks>
+  <div class="modal modal--thanks">
+    <button class="modal__close" type="button" aria-label="Закрити" data-modal-thanks-close>
+      &times;
+    </button>
+
+    <p class="thanks-text">Дякую за підтримку!</p>
+  </div>
+</div>
+   </section>
     </main>
     <!--  -->
     <footer>
