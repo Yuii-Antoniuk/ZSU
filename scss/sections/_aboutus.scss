@@ -21,6 +21,7 @@
 
 .aboutUs__imgbox {
     width: 655px;
+    height: 330px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -48,9 +49,6 @@
     background-image: url('../../imgs/desktop/aboutus-second-img@1.jpg');
     align-self: flex-end;
     bottom: -30%;
-    position: absolute;
-    right: 0;
-    margin: 0;
     transition-property: box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: ease;
