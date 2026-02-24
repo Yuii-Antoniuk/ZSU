@@ -4,23 +4,28 @@
   list-style: none;
 }
 header {
-    background-color: $main-bg-color;
-    color: $main-text-color;
+    background-color: #010632;
+    color: white;
   height: 65px;
   margin: 0;
   padding: 0;
+  
 }
 .header__ul {
     display: flex;
     height: 65px;
     align-items: center;
-    margin-left: 80px;
+   
 }
 .header__li {
-    margin-right: 90px;
-    margin-left: 70px;
+    margin-right: 50px;
+    margin-left: 20px;
     font-size:  24px ;
      font-family: "Jost", sans-serif;
+}
+.header__link {
+color: white;
+text-decoration: none;
 }
 .blue {
     color: $text-1-color;
