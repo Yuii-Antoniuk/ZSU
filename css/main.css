@@ -176,7 +176,7 @@ header {
 }
 
 .hero {
-  background-image: url(./imgs/desktop/bg-hero@1x.jpg);
+  background-image: url("./imgs/desktop/bg-hero@1x.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
