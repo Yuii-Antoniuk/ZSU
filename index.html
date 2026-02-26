@@ -99,84 +99,160 @@
       <!-- aboutus -->
 
       <!-- future-ukraine-->
-      <section>
+      <section class="future__section">
         <div class="container">
-          <p>
+          <h2 class="title__future">
             Якщо ми дуже допоможемо ЗСУ <br />
             то наша Україно буде така
-          </p>
-          <img src="" alt="картинка України" />
-          <img src="" alt="картинка України" />
-          <img src="" alt="картинка України" />
-          <img src="" alt="картинка України" />
-          <img src="" alt="картинка України" />
-          <img src="" alt="картинка України" />
+          </h2>
+          <div class="future__imgs--container">
+            <div class="future__imgs--5group">
+              <div class="future__imgs--3group">
+                <img
+                  src="./imgs/desktop/future-ukraine-1-img@1.jpg"
+                  alt="картинка України"
+                  class="img__future img__future--1"
+                />
+
+                <div class="future__imgs--1group">
+                  <img
+                    src="./imgs/desktop/future-ukraine-2-img@1.jpg"
+                    alt="картинка України"
+                    class="img__future img__future--2"
+                  />
+                  <img
+                    src="./imgs/desktop/future-ukraine-3-img@1.jpg"
+                    alt="картинка України"
+                    class="img__future img__future--3"
+                  />
+                </div>
+              </div>
+
+              <div class="future__imgs--2group">
+                <img
+                  src="./imgs/desktop/future-ukraine-5-img@1.jpg"
+                  alt="картинка України"
+                  class="img__future img__future--5"
+                />
+                <img
+                  src="./imgs/desktop/future-ukraine-6-img@1.jpg"
+                  alt="картинка України"
+                  class="img__future img__future--6"
+                />
+              </div>
+            </div>
+
+            <div class="future__imgs--4group">
+              <img
+                src="./imgs/desktop/future-ukraine-4-img@1.jpg"
+                alt="картинка України"
+                class="img__future img__future--4"
+              />
+            </div>
+          </div>
         </div>
       </section>
-   <section class = "donates">
-        
-<button class="open-modal-btn" data-modal-open data-modal-img="images/weapon.jpg">
-  Підтримати (зброя)
-</button>
+      <section>
+        <button
+          class="open-modal-btn"
+          data-modal-open
+          data-modal-img="images/weapon.jpg"
+        >
+          Підтримати (зброя)
+        </button>
 
-<button class="open-modal-btn" data-modal-open data-modal-img="images/drone.jpg">
-  Підтримати (дрон)
-</button>
+        <button
+          class="open-modal-btn"
+          data-modal-open
+          data-modal-img="images/drone.jpg"
+        >
+          Підтримати (дрон)
+        </button>
 
-<button class="open-modal-btn" data-modal-open data-modal-img="images/gas.jpg">
-  Підтримати (балони)
-</button>
+        <button
+          class="open-modal-btn"
+          data-modal-open
+          data-modal-img="images/gas.jpg"
+        >
+          Підтримати (балони)
+        </button>
 
+        <div class="backdrop is-hidden" data-modal-form>
+          <div class="modal">
+            <button
+              class="modal__close"
+              type="button"
+              aria-label="Закрити"
+              data-modal-close
+            >
+              &times;
+            </button>
 
+            <div class="modal__grid">
+              <div class="modal__content">
+                <form class="donate-form" id="donateForm">
+                  <label class="field">
+                    <span class="field__label">Email</span>
+                    <input
+                      class="field__input"
+                      type="email"
+                      name="email"
+                      placeholder=""
+                      required
+                    />
+                  </label>
 
-<div class="backdrop is-hidden" data-modal-form>
-  <div class="modal">
-    <button class="modal__close" type="button" aria-label="Закрити" data-modal-close>
-      &times;
-    </button>
+                  <label class="field">
+                    <span class="field__label">Money</span>
+                    <input
+                      class="field__input"
+                      type="number"
+                      name="money"
+                      min="1"
+                      placeholder=""
+                      required
+                    />
+                  </label>
 
-    <div class="modal__grid">
-   
-      <div class="modal__content">
-        <form class="donate-form" id="donateForm">
-          <label class="field">
-            <span class="field__label">Email</span>
-            <input class="field__input" type="email" name="email" placeholder="" required />
-          </label>
+                  <label class="field">
+                    <span class="field__label">Card Number</span>
+                    <input
+                      class="field__input"
+                      type="text"
+                      name="card"
+                      inputmode="numeric"
+                      maxlength="19"
+                      placeholder=""
+                      required
+                    />
+                  </label>
 
-          <label class="field">
-            <span class="field__label">Money</span>
-            <input class="field__input" type="number" name="money" min="1" placeholder="" required />
-          </label>
+                  <button class="btn" type="submit">Підтримати</button>
+                </form>
+              </div>
 
-          <label class="field">
-            <span class="field__label">Card Number</span>
-            <input class="field__input" type="text" name="card" inputmode="numeric" maxlength="19" placeholder="" required />
-          </label>
+              <div class="modal__media">
+                <img class="modal__img" data-modal-img alt="Фото" />
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <button class="btn" type="submit">Підтримати</button>
-        </form>
-      </div>
+        <div class="backdrop is-hidden" data-modal-thanks>
+          <div class="modal modal--thanks">
+            <button
+              class="modal__close"
+              type="button"
+              aria-label="Закрити"
+              data-modal-thanks-close
+            >
+              &times;
+            </button>
 
-     
-      <div class="modal__media">
-        <img class="modal__img" data-modal-img alt="Фото" />
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="backdrop is-hidden" data-modal-thanks>
-  <div class="modal modal--thanks">
-    <button class="modal__close" type="button" aria-label="Закрити" data-modal-thanks-close>
-      &times;
-    </button>
-
-    <p class="thanks-text">Дякую за підтримку!</p>
-  </div>
-</div>
-   </section>
+            <p class="thanks-text">Дякую за підтримку!</p>
+          </div>
+        </div>
+      </section>
     </main>
     <!--  -->
     <footer>
@@ -204,6 +280,6 @@
         <p class="copyright">&#xa9; 2022 trips</p>
       </div>
     </footer>
-   <script src="modal-project.js" defer></script>
+    <script src="modal-project.js" defer></script>
   </body>
 </html>
