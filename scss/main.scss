@@ -3,11 +3,11 @@
 @import './utils/placeholders';
 @import './utils/common';
 @import './sections/header';
-@import '../src/scss__parts/header';
+@import './sections/hero';
 @import './sections/needs';
 @import './sections/aboutus';
-@import './sections/hero';
 @import './sections/future-ukraine';
+@import './sections/donates';
 @import "./sections/footer";
 // media must be last
 @import './utils/media';
