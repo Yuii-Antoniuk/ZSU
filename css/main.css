@@ -36,6 +36,11 @@ header {
   font-family: "Jost", sans-serif;
 }
 
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
 .blue {
   color: #0075FF;
 }
