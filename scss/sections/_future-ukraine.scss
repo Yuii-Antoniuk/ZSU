@@ -1,6 +1,6 @@
 .title__future {
     display: flex;
-    font-family: "Roboto";
+    font-family: "Istok Web", sans-serif;
     font-weight: 700;
     font-style: Bold;
     font-size: 48px;
@@ -15,8 +15,8 @@
 
 .future__section {
     background-color: var(--main-bg-color, #010632);
-    border-bottom: solid 3px #FFFFFF;
-    border-top: solid 3px #FFFFFF;
+  //  border-bottom: solid 3px #FFFFFF;
+  //  border-top: solid 3px #FFFFFF; бордер не потрібен
 }
 
 .future__imgs--container {

@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 1230px) { //tablet
+
+    .needs__container,
+    .aboutUs__container {
+        width: 100%;
+    }
+
+    .needs__imgbox {
+        width: 450px;
+    }    
+
+    .needs__img-first {
+        z-index: 1;
+    }
+
+    .needs__img-second {
+        position: absolute;
+        bottom: 40px;
+        z-index: 2;
+        align-self: auto;
+    }
+
+    .aboutUs__imgbox {
+        width: 450px;
+        margin-right: 15px;
+        order: 2;
+    }    
+
+    .aboutUs__img-first {
+        z-index: 1;
+    }
+
+    .aboutUs__img-second {
+        position: absolute;
+        bottom: 40px;
+        z-index: 2;
+        align-self: auto;
+    }
+}
+
+@media (max-width: 768px) { //mobile
+
+    .needs__container,
+    .aboutUs__container {
+        width: 100%;
+    }
+
+    .needs {
+        min-height: 600px;
+    }
+
+    .needs__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .needs__imgbox,
+    .needs__textbox {
+        width: 100%;
+    }
+
+    .needs__textbox {
+        margin-left: 0;
+    }
+
+    .needs__imgbox {
+        height: 220px;
+        margin-top: 30px;
+    }
+
+    .needs__img-first {
+        width: 200px;
+        height: 100px;
+    }
+
+    .needs__img-second {
+        width: 200px;
+        height: 100px;
+        position: static;
+        align-self: flex-end;
+        margin-top: 16px;
+    }
+
+    .aboutUs {
+        min-height: 600px;
+    }
+
+    .aboutUs__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .aboutUs__imgbox,
+    .aboutUs__textbox {
+        width: 100% !important;
+    }
+
+    .aboutUs__textbox {
+        margin-left: 0;
+    }
+
+    .aboutUs__imgbox {
+        height: 220px;
+        margin-top: 30px;
+    }
+
+    .aboutUs__img-first {
+        width: 200px;
+        height: 100px;
+    }
+
+    .aboutUs__img-second {
+        width: 200px;
+        height: 100px;
+        position: static;
+        align-self: flex-end;
+        margin-top: 16px;
+    }
+
+}
