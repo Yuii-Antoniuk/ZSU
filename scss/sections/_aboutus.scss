@@ -2,6 +2,8 @@
     min-height: 461px;
     color: $main-text-color;
     background-color: $root-bg-golor;
+    display: flex;
+    align-items: center;
 }
 
 .aboutUs__container {

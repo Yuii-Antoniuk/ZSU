@@ -84,12 +84,13 @@ header {
   min-height: 461px;
   color: #FFFFFF;
   background-color: #010632;
+  display: flex;
+  align-items: center;
 }
 
 .needs__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
 }
 
 .needs__textbox {
@@ -142,6 +143,8 @@ header {
   min-height: 461px;
   color: #FFFFFF;
   background-color: #060D49;
+  display: flex;
+  align-items: center;
 }
 
 .aboutUs__container {
