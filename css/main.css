@@ -39,8 +39,8 @@ header {
 }
 
 .header__li {
-  margin-right: 90px;
-  margin-left: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
   font-size: 24px;
   font-family: "Jost", sans-serif;
 }
@@ -64,6 +64,25 @@ header {
   font-family: "Roboto", sans-serif;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header__li {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header__li-delete {
+    display: none;
+  }
+  .header__li {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .header__li {
+    align-items: center;
+  }
+}
 .hero__h1 {
   font-size: 64px;
   font-family: "Jost", sans-serif;
@@ -80,6 +99,42 @@ header {
   height: 800px;
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .header__li {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header__li-delete {
+    display: none;
+  }
+  .header__li {
+    margin: 0 auto;
+  }
+  .hero__h1 {
+    font-size: 50px;
+  }
+  .ua {
+    font-size: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__h1 {
+    font-size: 40px;
+  }
+  .ua {
+    font-size: 30px;
+  }
+  .header__li {
+    align-items: center;
+  }
+}
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url("../imgs/desktop/bg-hero@2x.jpg");
+  }
+}
 .needs {
   min-height: 461px;
   color: #FFFFFF;
