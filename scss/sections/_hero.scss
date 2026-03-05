@@ -13,25 +13,3 @@
   background-size: cover;
   height: 800px;
 }
-@media  (max-width:768px) {
-  .hero__h1 {
-font-size: 50px;
-  }
-.ua {
-  font-size: 40px;
-}
-}
-@media  (max-width:480px){
-  
-  .hero__h1 {
-font-size: 40px;
-  }
-.ua {
-  font-size: 30px;
-}
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-.hero {
-  background-image: url('../imgs/desktop/bg-hero@2x.jpg');
-}
-}

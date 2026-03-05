@@ -1,4 +1,45 @@
 
+//header + hero
+
+@media (min-width:768px) and (max-width:1200px) {
+.header__li {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header__li-delete {
+    display: none;
+  }
+  .header__li {
+    margin: 0 auto;
+  }
+  .hero__h1 {
+font-size: 50px;
+  }
+.ua {
+  font-size: 40px;
+}
+}
+@media screen and (max-width:480px){
+  
+  .hero__h1 {
+font-size: 40px;
+  }
+.ua {
+  font-size: 30px;
+}
+.header__li {
+align-items: center;
+}
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+.hero {
+  background-image: url('../src/imgs/bg-hero@2x.jpg');
+}
+}
+
 // needs
 
 @media screen and (max-width: 1230px) { 
