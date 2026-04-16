@@ -2,6 +2,9 @@
     min-height: 461px;
     color: $main-text-color;
     background-color: $main-bg-color;
+    //padding-top: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .needs__container {

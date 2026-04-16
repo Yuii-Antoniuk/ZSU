@@ -1,0 +1,51 @@
+.title__future {
+    display: flex;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    justify-content: center;
+    color: var(--main-text-color, #FFFFFF);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.future__section {
+    background-color: var(--main-bg-color, #010632);
+  //  border-bottom: solid 3px #FFFFFF;
+  //  border-top: solid 3px #FFFFFF; бордер не потрібен
+}
+
+.future__imgs--container {
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.future__imgs--1group {
+    display: flex;
+    flex-direction: column;
+    width: 364px;
+    height: auto;
+    gap: 21px;
+}
+
+.future__imgs--3group {
+    display: flex;
+    gap: 37px;
+}
+
+.future__imgs--2group {
+    display: flex;
+    gap: 35px;
+}
+
+.future__imgs--5group {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
