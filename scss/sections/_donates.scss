@@ -47,7 +47,7 @@
   color: #111;
 }
 
-
+/* Grid inside modal */
 .modal__grid {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -73,7 +73,7 @@
   border-radius: 4px;
 }
 
-
+/* Form fields */
 .field {
   display: block;
   margin-bottom: 16px;
@@ -125,11 +125,12 @@
   color: #111;
 }
 
-
+/* Responsive */
 @media (max-width: 760px) {
   .modal__grid {
     grid-template-columns: 1fr;
   }
+
 
   .modal__media {
     padding: 0 26px 26px;
